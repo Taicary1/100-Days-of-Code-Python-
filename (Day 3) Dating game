@@ -24,8 +24,8 @@ if first_choice == "Bumble":
         elif third_choice == "Pauline":
                 print("They need to call the horny police. Game over")
         elif third_choice == "Liz":
-                print("Good luck with everything out in Boston bro. I'll miss you.")
+                print("You got a happily ever after bro. I'll miss you.")
         else:
-                print("You're a short-term dater and got credit score number. Game over.")
+                print("You're a short-term dater and got credit score number body count. Game over.")
 else: 
         print("You dawg. Go back to the streets. Game over.")
