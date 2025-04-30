@@ -19,12 +19,12 @@ if first_choice == "Bumble":
         second_choice = input("Good choice. You got the choice to upgrade to Hinge. Do you upgrade to Hinge or stay on Bumble?\n")
         if second_choice == "Hinge":
                 third_choice = input("You meet three women. Do you decide to go out with Liz, Frances, or Pauline?\n")
-        if third_choice == "Frances":
-                print("You're dumb. Game over loser.")
-        elif third_choice == "Pauline":
-                print("They need to call the horny police. Game over")
-        elif third_choice == "Liz":
-                print("You got a happily ever after bro. I'll miss you.")
+                if third_choice == "Frances":
+                        print("You're dumb. Game over loser.")
+                elif third_choice == "Pauline":
+                        print("They need to call the horny police. Game over")
+                elif third_choice == "Liz":
+                        print("You got a happily ever after bro. I'll miss you.")
         else:
                 print("You're a short-term dater and got credit score number body count. Game over.")
 else: 
